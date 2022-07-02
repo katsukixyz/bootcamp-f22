@@ -1,0 +1,36 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 2em;
+  background-color: #fff3db;
+}
+
+img {
+  max-width: 18em;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.lecture {
+  width: fit-content;
+  padding: 12px 30px 20px 20px;
+  border-radius: 12px;
+  background-color: #ffc55a;
+}
+
+.desc p {
+  max-width: 50%;
+}
+
+h1,
+h2,
+li,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
