@@ -1,0 +1,21 @@
+#one {
+  width: 60px;
+  height: 60px;
+  margin-top: 50px;
+  background-color: blue;
+}
+#two {
+  width: 60px;
+  height: 60px;
+  background-color: green;
+}
+#three {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+}
+#four {
+  width: 60px;
+  height: 60px;
+  background-color: pink;
+}
