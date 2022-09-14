@@ -1,0 +1,29 @@
+img {
+    max-width: 18em;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.personal {
+    width: fit-content;
+    padding: 12px 30px 20px 20px;
+    border-radius: 12px;
+    background-color: lightgreen;
+}
+
+
+html {
+    padding: 16vm;
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightblue;
+}
+
+.desc p {
+    max-width: 50%;
+}
