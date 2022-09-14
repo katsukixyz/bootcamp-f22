@@ -1,0 +1,22 @@
+.title {
+    color: whitesmoke;
+    background-color: olivedrab;
+    font-size:xx-large;
+    font-weight:bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    padding:40px;
+    margin-bottom: 50px;
+}
+.hobbies {
+    text-align:center;
+    margin-top: 30px;
+}
+
+html {
+    padding: 20px;
+    color: olivedrab;
+    font-weight: 600;
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
