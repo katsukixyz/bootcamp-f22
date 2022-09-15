@@ -1,0 +1,43 @@
+summary {
+    font-weight: 600;
+  }
+  
+  img {
+    height: 15em;
+    padding-left: 5px;
+  }
+  
+  p.desc {
+    font-weight: 900;
+    font-size: 18px;
+  }
+  
+  #box1 {
+    background: #e7c27d;
+    border-radius: 10px;
+    width: 400px;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Andale Mono';
+  }
+  
+  .name {
+    font-weight: 200;
+  }
+  
+  a {
+    padding: 10px 10px 10px 0px;
+    color: red;
+  }
+  
+  summary:hover {
+    cursor: pointer;
+  }
+  
+  html {
+    padding: 4em;
+    font-family: 'Gill Sans';
+  }
+  
