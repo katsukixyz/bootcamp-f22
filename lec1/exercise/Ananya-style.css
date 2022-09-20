@@ -1,0 +1,36 @@
+p {
+    background-color: burlywood;
+}
+
+.desc {
+    padding: 30px;
+}
+
+h1:hover {
+    padding: 20px;
+    text-align: center;
+    color: teal;
+}
+
+img {
+    height: 5cm;
+    border-radius: 8px;
+    
+}
+
+.name {
+    font-weight: bold;
+    font-style: italic;
+    color: teal;
+}
+
+.title {
+    color: darkcyan;
+}
+
+html {
+   background-color: black;
+    padding: 4cm;
+    color: cornsilk;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

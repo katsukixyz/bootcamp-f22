@@ -1,0 +1,18 @@
+.desc {
+    padding: 5px;
+}
+
+html{
+    padding: 20px;
+    font-size: medium;
+    background-color: azure;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1{
+    text-shadow: 0em;
+    text-decoration-color: darkblue;
+    text-decoration-line: underline;
+    
+}
