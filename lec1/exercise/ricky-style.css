@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: cornsilk;
+}
+
+.design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 800px;
+    gap: 50px;
+}
+
+.aboutme {
+    font-weight: bold;
+}
+
+.h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#aboutmetitle {
+    margin-bottom: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    width: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+#myself {
+    max-width: 75%;
+    height: auto;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro { 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#connect-heading {
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github {
+    max-width: 12%;
+    height: auto;
+}
+
+#linkedin {
+    max-width: 9%;
+    height: auto;
+    margin: 0px;
+}
+
+#email {
+    max-width: 30%;
+    height: auto;
+    margin: 0px;
+}
+
+#logo {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
