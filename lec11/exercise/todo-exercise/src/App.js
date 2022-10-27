@@ -17,6 +17,11 @@ function App() {
           width: "50%",
         }}
       >
+        {/* 
+          You will have to modify the code for the form and its inputs
+          below to utilize your state variables above. Make sure the form 
+          also clears on submission.
+        */}
         <form
           style={{
             display: "flex",
@@ -43,9 +48,9 @@ function App() {
       ></div>
       <div className="todoList">
         {/* 
-        You should display your todo list items here. Consider making a 
-        custom component to display each list item. Each list item should
-        display its task name, priority, and description.
+          You should display your todo list items here. Consider making 
+          custom components to display each list item. Each list item should
+          display its task name, priority, and description.
         */}
       </div>
     </div>
