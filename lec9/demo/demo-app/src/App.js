@@ -1,4 +1,5 @@
-import ChildComponent from "./components/ChildComponent";
+import BoldComponent from "./components/BoldComponent";
+import { useState } from "react";
 
 const exampleData = [
   {
@@ -22,8 +23,9 @@ const exampleData = [
 ];
 
 function App() {
-  let i = 0;
-  const { name, position, bogSem, bits } = exampleData[i];
+  const [index, setIndex] = useState(0);
+  const { name, position, bogSem, bits } = exampleData[index];
+
   return (
     <div>
       <p>
@@ -32,14 +34,14 @@ function App() {
       </p>
       <button
         onClick={() => {
-          i = i - 1;
+          setIndex(index - 1);
         }}
       >
         {"<"}
       </button>
       <button
         onClick={() => {
-          i = i + 1;
+          setIndex(index + 1);
         }}
       >
         {">"}
@@ -49,10 +51,3 @@ function App() {
 }
 
 export default App;
-
-useEffect(() => {
-  // some function here
-  return () => {
-    //some cleanup function here
-  };
-}, []);
